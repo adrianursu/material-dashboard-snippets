@@ -1,0 +1,94 @@
+
+/*For charts*/
+.successColor {
+  background-color : #4BB543;
+}
+
+/*For table*/
+.primaryColorHead th {
+  color : #9c27b0;
+}
+
+
+/*For charts*/
+.primaryColor {
+  background-color : #9c27b0;
+}
+
+.warningColor {
+  background-color : #ff9800;
+}
+
+.dangerColor {
+  background-color : #f44336;
+}
+
+.infoColor {
+  background-color: #00acc1;
+}
+
+ .ct-grid {
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px;
+}
+
+.ct-series-a .ct-point,
+.ct-series-a .ct-bar {
+  stroke: white;
+  stroke-width: 1.3%;
+}
+
+
+.ct-series-a .ct-line {
+  stroke: rgba(255, 255, 255, 0.8);
+}
+
+.MuiPaper-root {
+  margin-bottom: 5px;
+}
+
+.ct-label.ct-horizontal.ct-end {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start;
+}
+
+.ct-label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ct-chart-line .ct-label {
+  display: block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.ct-label {
+  fill: rgba(0, 0, 0, 0.4);
+  line-height: 1;
+}
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  display: block;
+  background-color: #eeeeee;
+  color: #3c4858;
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  padding: 10px;
+}
